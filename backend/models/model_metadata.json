@@ -1,0 +1,15 @@
+{
+  "accuracy": 1.0,
+  "roc_auc": 1.0,
+  "features": [
+    "amount_log",
+    "days_overdue",
+    "payment_history_score",
+    "shipment_volume_change_30d",
+    "shipment_volume_30d",
+    "express_ratio",
+    "destination_diversity",
+    "contact_attempts",
+    "customer_tenure_months"
+  ]
+}
