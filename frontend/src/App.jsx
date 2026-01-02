@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import Header from './components/Header'
-import FileUpload from './components/FileUpload'
-import AccountList from './components/AccountList'
-import AccountDetail from './components/AccountDetail'
+import Header from './Components/Header'
+import FileUpload from './Components/FileUpload'
+import AccountList from './Components/AccountList'
+import AccountDetail from './Components/AccountDetail'
 
 function App() {
   // Simple state-based routing (no react-router needed!)
@@ -28,7 +28,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen mesh-bg">
       <Header onLogoClick={() => { setCurrentView('upload'); window.history.pushState({}, '', '/') }} />
       
       <main className="container mx-auto px-4 py-8">
